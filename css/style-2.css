@@ -1,0 +1,189 @@
+/*-----Сброс-----*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  /*font: 400 13px/20px "Raleway",sans-serif;*/
+  font-family: 'Times New Roman', Times, serif;
+    color: #898989;
+    background: #fff;
+  border: 2px solid rgb(186, 44, 221);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.wrapper-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid rgb(44, 221, 44);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  max-width: 100%;
+  min-width: 0;
+  height: 108px;
+  height: auto;
+  margin: 10px 0 10px 0;
+  padding: 10px 0 10 px 0;
+  border: 2px solid rgb(29, 228, 211);
+}
+
+nav {
+  display: flex;  
+  flex-wrap: wrap;
+  text-transform: uppercase;
+   /*width: 855px;*/
+  height: auto;
+  margin: 10px 0 10px 0;
+  border: 1px solid rgb(138, 23, 28);
+}
+
+.nav-left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*width: 1200px;*/
+  height: auto;
+  margin: 10px 0 10px 0;
+  border: 2px solid rgb(29, 228, 211);
+}
+
+.nav-left > a {
+  display: flex;
+  margin: 0 15px 0 0;
+  height: 100%;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+  color: #7b6e6d;
+  border: 1px solid red;
+}
+
+.logo-center > img {
+  margin-left: -7px;
+}
+
+.header-account > a {
+  display: flex;
+  margin: 0 35px;
+  height: 100%;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #7b6e6d;
+  border: 1px solid red;
+}
+
+.nav-right > a {
+  display: flex;
+  margin: 0 35px;
+  height: 100%;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+  color: #7b6e6d;
+  border: 1px solid red;
+}
+
+.gold-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  max-width: 100%;
+  min-width: 0;
+  height: 108px;
+  max-height: auto;
+  margin: 50px 0 10px 0;
+  /*padding: 10px 0 10 px 0;*/
+  border: 2px solid rgb(32, 29, 228)
+}
+
+.gold-text {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 100;
+  font-stretch: extra-condensed;
+  /*letter-spacing: 1.1px;*/
+  color: #7b6e6d;
+}
+
+.about-jewelry-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  max-width: 100%;
+  min-width: 0;
+  height: 400px;
+  max-height: auto;
+  margin: 50px 0 10px 0;
+  /*padding: 10px 0 10 px 0;*/
+  border: 5px solid rgb(32, 29, 228);
+}
+
+.image-jewelry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*width: 300px;*/
+  width: 33%;
+  height: 340px;
+  max-height: 100%;
+  border: 3px solid rgb(134, 199, 31); 
+}
+
+.about-jewelry {
+  /*width: 900px;*/
+  width: 66%;
+  /*max-width: 100%;*/
+  /*height: 340px;*/
+  padding: 0 10px 0 10px;
+  border: 2px solid rgb(205, 29, 228);
+}
+
+.about-jewelry > p {
+  /*margin: 5px 0 5px 0;*/
+  padding: 10px 0 10 px 0;
+  border: 2px solid rgb(205, 29, 228);
+}
+
+.collection-row-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  max-width: 100%;
+  min-width: 0;
+  height: 340px;
+  max-height: auto;
+  margin: 50px 0 10px 0;
+  /*padding: 10px 0 10 px 0;*/
+  border: 2px solid rgb(32, 29, 228);
+}
